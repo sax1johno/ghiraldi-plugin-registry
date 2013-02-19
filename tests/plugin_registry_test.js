@@ -4,11 +4,11 @@ var Schema = mongoose.Schema
 
 exports.registryTest = nodeunit.testCase({
     'testConstructor': function(test) {
-        var mongooseRegistry = require('../lib/mongoose_registry');
+        var pluginRegistry = require('../lib/plugin_registry');
         test.done();
     },
     'testAdd': function(test) {
-        var reg = require('../lib/mongoose_registry');
+        var reg = require('../lib/plugin_registry');
         var testSchema = new Schema({
             title:      String,
             test:       String
@@ -22,7 +22,7 @@ exports.registryTest = nodeunit.testCase({
         })
     },
     'testAddEvent': function(test) {
-        var reg = require('../lib/mongoose_registry');
+        var reg = require('../lib/plugin_registry');
         var testSchema = new Schema({
             title:      String,
             test:       String
@@ -35,7 +35,7 @@ exports.registryTest = nodeunit.testCase({
         
     },
     'testRemove': function(test) {
-        var reg = require('../lib/mongoose_registry');
+        var reg = require('../lib/plugin_registry');
         var testSchema = new Schema({
             
         });
@@ -50,7 +50,7 @@ exports.registryTest = nodeunit.testCase({
         });
     },
     'testRemoveEvent': function(test) {
-        var reg = require('../lib/mongoose_registry');
+        var reg = require('../lib/plugin_registry');
         var testSchema = new Schema({
             
         });
@@ -63,7 +63,7 @@ exports.registryTest = nodeunit.testCase({
         });
     },    
     'testGet': function(test) {
-        var reg = require('../lib/mongoose_registry');
+        var reg = require('../lib/plugin_registry');
         var testSchema = new Schema({
             
         });
@@ -78,7 +78,7 @@ exports.registryTest = nodeunit.testCase({
         });
     },
     'testKeys': function(test) {
-        var reg = require('../lib/mongoose_registry');
+        var reg = require('../lib/plugin_registry');
         var testSchema = new Schema({});
         var testSchema2 = new Schema({});
         var testSchema3 = new Schema({});
