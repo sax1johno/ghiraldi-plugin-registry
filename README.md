@@ -1,4 +1,6 @@
-mongoose-schema-registry
+ghiraldi-plugin-registry
 ========================
 
-This allows users to register schemas without creating a mongoose model.  This allows extension of schemas later on prior to registering those models.
+The plugin registry allows for the registration of plugins into a central store and provides access to plugin
+properties for other controllers.  This is particularly useful for things like the admin core plugin, which
+uses the registry to build the admin views for controllers.
