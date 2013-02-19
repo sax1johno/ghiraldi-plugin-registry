@@ -1,0 +1,131 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/var/lib/openshift/51230005e0b8cd49fa000082/app-root/data//bin/node-openshift-v8',
+1 verbose cli   '/var/lib/stickshift/51230005e0b8cd49fa000082/app-root/data/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.9
+4 verbose node symlink /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data//bin/node-openshift-v8
+5 verbose publish [ '.' ]
+6 verbose read json /var/lib/stickshift/51230005e0b8cd49fa000082/app-root/data/410280/package.json
+7 verbose cache add [ '.', null ]
+8 silly cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { pathname: '.', path: '.', href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ '/var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/tmp.tgz
+15 verbose folder .
+16 info prepublish mongoose-schema-registry@0.0.6
+17 silly lockFile 6523a966-768568-0-505868474021554-tmp-tgz /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/tmp.tgz
+18 verbose lock /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/tmp.tgz /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/6523a966-768568-0-505868474021554-tmp-tgz.lock
+19 silly lockFile 6523a966-768568-0-505868474021554-tmp-tgz /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/tmp.tgz
+20 verbose tar unpack /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/tmp.tgz
+21 silly lockFile b27ea69d-768568-0-505868474021554-package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/package
+22 verbose lock /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/b27ea69d-768568-0-505868474021554-package.lock
+23 silly gunzTarPerm modes [ '755', '644' ]
+24 silly gunzTarPerm extractEntry package.json
+25 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+26 silly gunzTarPerm extractEntry README.md
+27 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+28 silly gunzTarPerm extractEntry LICENSE
+29 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+30 silly gunzTarPerm extractEntry tests/plugin_registry_test.js
+31 silly gunzTarPerm modified mode [ 'tests/plugin_registry_test.js', 436, 420 ]
+32 silly gunzTarPerm extractEntry .c9revisions/package.json.c9save
+33 silly gunzTarPerm modified mode [ '.c9revisions/package.json.c9save', 436, 420 ]
+34 silly gunzTarPerm extractEntry .c9revisions/LICENSE.c9save
+35 silly gunzTarPerm modified mode [ '.c9revisions/LICENSE.c9save', 436, 420 ]
+36 silly gunzTarPerm extractEntry .c9revisions/README.md.c9save
+37 silly gunzTarPerm modified mode [ '.c9revisions/README.md.c9save', 436, 420 ]
+38 silly gunzTarPerm extractEntry .c9revisions/npm-debug.log.c9save
+39 silly gunzTarPerm modified mode [ '.c9revisions/npm-debug.log.c9save', 436, 420 ]
+40 silly gunzTarPerm extractEntry .c9revisions/tests/plugin_registry_test.js.c9save
+41 silly gunzTarPerm modified mode [ '.c9revisions/tests/plugin_registry_test.js.c9save', 436, 420 ]
+42 silly gunzTarPerm extractEntry .c9revisions/lib/plugin.js.c9save
+43 silly gunzTarPerm modified mode [ '.c9revisions/lib/plugin.js.c9save', 416, 420 ]
+44 silly gunzTarPerm extractEntry .c9revisions/lib/plugin_registry.js.c9save
+45 silly gunzTarPerm modified mode [ '.c9revisions/lib/plugin_registry.js.c9save', 436, 420 ]
+46 silly gunzTarPerm extractEntry lib/plugin.js
+47 silly gunzTarPerm modified mode [ 'lib/plugin.js', 416, 420 ]
+48 silly gunzTarPerm extractEntry lib/plugin_registry.js
+49 silly gunzTarPerm modified mode [ 'lib/plugin_registry.js', 436, 420 ]
+50 verbose read json /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/package/package.json
+51 silly lockFile b27ea69d-768568-0-505868474021554-package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/package
+52 verbose from cache /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/package/package.json
+53 verbose tar pack [ '/var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz',
+53 verbose tar pack   '/var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/package' ]
+54 verbose tarball /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz
+55 verbose folder /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/tmp/npm-15715/1361255768568-0.505868474021554/package
+56 silly lockFile a3774529-chema-registry-0-0-6-package-tgz /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz
+57 verbose lock /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/a3774529-chema-registry-0-0-6-package-tgz.lock
+58 silly lockFile a3774529-chema-registry-0-0-6-package-tgz /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz
+59 silly lockFile 6184ffe0-se-schema-registry-0-0-6-package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package
+60 verbose lock /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/6184ffe0-se-schema-registry-0-0-6-package.lock
+61 silly lockFile 6184ffe0-se-schema-registry-0-0-6-package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package
+62 verbose tar unpack /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz
+63 silly lockFile 6184ffe0-se-schema-registry-0-0-6-package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package
+64 verbose lock /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/6184ffe0-se-schema-registry-0-0-6-package.lock
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm extractEntry LICENSE
+69 silly gunzTarPerm extractEntry tests/plugin_registry_test.js
+70 silly gunzTarPerm extractEntry .c9revisions/package.json.c9save
+71 silly gunzTarPerm extractEntry .c9revisions/LICENSE.c9save
+72 silly gunzTarPerm extractEntry .c9revisions/README.md.c9save
+73 silly gunzTarPerm extractEntry .c9revisions/npm-debug.log.c9save
+74 silly gunzTarPerm extractEntry .c9revisions/tests/plugin_registry_test.js.c9save
+75 silly gunzTarPerm extractEntry .c9revisions/lib/plugin.js.c9save
+76 silly gunzTarPerm extractEntry .c9revisions/lib/plugin_registry.js.c9save
+77 silly gunzTarPerm extractEntry lib/plugin.js
+78 silly gunzTarPerm extractEntry lib/plugin_registry.js
+79 verbose read json /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package/package.json
+80 silly lockFile 6184ffe0-se-schema-registry-0-0-6-package /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package
+81 silly shasum updated bytes 24196
+82 info shasum 9dce28931dc1ad071d2bb612f8b05225b66917a3
+82 info shasum /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz
+83 verbose from cache /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package/package.json
+84 verbose chmod /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz 644
+85 verbose chown /var/lib/openshift/51230005e0b8cd49fa000082/app-root/data/.npm/mongoose-schema-registry/0.0.6/package.tgz [ 4739, 4739 ]
+86 silly lockFile 3a52ce78- .
+87 silly publish { name: 'mongoose-schema-registry',
+87 silly publish   description: 'Creates a schema registry that can be used to store and retrieve mongoose schemas.',
+87 silly publish   tags: [ 'mongoose', 'schema', 'registry', 'ghiraldi' ],
+87 silly publish   version: '0.0.6',
+87 silly publish   author: { name: 'John O\'Connor', email: 'sax1johno@gmail.com' },
+87 silly publish   directories: { lib: 'lib' },
+87 silly publish   main: './lib/mongoose_registry',
+87 silly publish   dependencies: { mongoose: '*', underscore: '*', nodeunit: '*' },
+87 silly publish   devDependencies: {},
+87 silly publish   repository:
+87 silly publish    { type: 'git',
+87 silly publish      url: 'github.com/sax1johno/mongoose-schema-registry.git' },
+87 silly publish   _id: 'mongoose-schema-registry@0.0.6',
+87 silly publish   _from: 'mongoose_registry@0.0.6',
+87 silly publish   readme: 'ghiraldi-plugin-registry\n========================\n\nThe plugin registry allows for the registration of plugins into a central store and provides access to plugin\nproperties for other controllers.  This is particularly useful for things like the admin core plugin, which\nuses the registry to build the admin views for controllers.',
+87 silly publish   dist: { shasum: '9dce28931dc1ad071d2bb612f8b05225b66917a3' } }
+88 verbose url raw mongoose-schema-registry
+89 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose-schema-registry' ]
+90 verbose url resolved https://registry.npmjs.org/mongoose-schema-registry
+91 info trying registry request attempt 1 at 01:36:10
+92 http PUT https://registry.npmjs.org/mongoose-schema-registry
+93 http 409 https://registry.npmjs.org/mongoose-schema-registry
+94 verbose url raw mongoose-schema-registry
+95 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose-schema-registry' ]
+96 verbose url resolved https://registry.npmjs.org/mongoose-schema-registry
+97 info trying registry request attempt 1 at 01:36:10
+98 http GET https://registry.npmjs.org/mongoose-schema-registry
+99 http 200 https://registry.npmjs.org/mongoose-schema-registry
+100 error publish fail Cannot publish over existing version.
+100 error publish fail Bump the 'version' field, set the --force flag, or
+100 error publish fail     npm unpublish 'mongoose-schema-registry@0.0.6'
+100 error publish fail and try again
+101 error System Linux 2.6.32-279.22.1.el6.x86_64
+102 error command "/var/lib/openshift/51230005e0b8cd49fa000082/app-root/data//bin/node-openshift-v8" "/var/lib/stickshift/51230005e0b8cd49fa000082/app-root/data/lib/node_modules/npm/bin/npm-cli.js" "publish"
+103 error cwd /var/lib/stickshift/51230005e0b8cd49fa000082/app-root/data/410280
+104 error node -v v0.8.9
+105 error npm -v 1.1.62
+106 error code EPUBLISHCONFLICT
+107 verbose exit [ 1, true ]

@@ -1,11 +1,9 @@
 {
-  "name": "mongoose-schema-registry",
-  "description": "Creates a schema registry that can be used to store and retrieve mongoose schemas.",
+  "name": "ghiraldi-plugin-registry",
+  "description": "The plugin registry allows for the registration of plugins into a central store and provides access to plugin properties for other controllers. This is particularly useful for things like the admin core plugin, which uses the registry to build the admin views for controllers.",
   "tags": [
-    "mongoose",
-    "schema",
-    "registry",
-    "ghiraldi"
+    "ghiraldi",
+    "registry"
   ],
   "version": "0.0.6",
   "author": {
@@ -15,7 +13,7 @@
   "directories": {
     "lib": "lib"
   },
-  "main": "./lib/mongoose_registry",
+  "main": "./lib/plugin_registry",
   "dependencies": {
     "mongoose": "*",
     "underscore": "*",
@@ -24,8 +22,8 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "github.com/sax1johno/mongoose-schema-registry.git"
+    "url": "github.com/sax1johno/ghiraldi-plugin-registry.git"
   },
-  "_id": "mongoose_registry@0.0.6",
-  "_from": "mongoose_registry@0.0.6"
+  "_id": "ghiraldi_plugin_registry@0.0.6",
+  "_from": "ghiraldi_plugin_registry@0.0.6"
 }
