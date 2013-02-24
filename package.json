@@ -5,7 +5,7 @@
     "ghiraldi",
     "registry"
   ],
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": {
     "name": "John O'Connor",
     "email": "sax1johno@gmail.com"
@@ -24,6 +24,6 @@
     "type": "git",
     "url": "github.com/sax1johno/ghiraldi-plugin-registry.git"
   },
-  "_id": "ghiraldi_plugin_registry@0.0.6",
-  "_from": "ghiraldi_plugin_registry@0.0.6"
+  "_id": "ghiraldi_plugin_registry@0.0.7",
+  "_from": "ghiraldi_plugin_registry@0.0.7"
 }
